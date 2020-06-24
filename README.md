@@ -26,9 +26,14 @@ You can embed local or remote images using `![](...)`
 # You can include sample code which will be formatted
 ```
 
-## Training info
+## Training data
 
-Dataset, preprocessing, hardware used, hyperparameters...
+Describe the data you used to train the model.
+If you initialized it with pre-trained weights, add a link to the pre-trained model card or repository with description of the pre-training data.
+
+## Training procedure
+
+Preprocessing, hardware used, hyperparameters...
 
 ## Eval results
 
