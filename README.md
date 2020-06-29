@@ -26,6 +26,10 @@ You can embed local or remote images using `![](...)`
 # You can include sample code which will be formatted
 ```
 
+#### Limitations and bias
+
+Provide examples of latent issues and potential remediations.
+
 ## Training data
 
 Describe the data you used to train the model.
