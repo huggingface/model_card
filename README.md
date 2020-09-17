@@ -21,7 +21,7 @@ ISO 639-1 code for your language (e.g. `ru`, `en`, `de`, or `multilingual`)
 
 ### license
 
-One of the valid license identifier. e.g.:
+One of the valid license identifiers. e.g.:
 
 ```
 - Apache 2.0
