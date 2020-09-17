@@ -1,5 +1,9 @@
 ---
-language: "ISO 639-1 code for your language, or `multilingual`"
+language: 
+- en
+- ru
+- de
+- multilingual
 thumbnail: "url to a thumbnail used in social sharing"
 tags:
 - array
