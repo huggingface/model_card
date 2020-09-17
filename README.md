@@ -1,16 +1,62 @@
----
-language: "ISO 639-1 code for your language, or `multilingual`"
-thumbnail: "url to a thumbnail used in social sharing"
-tags:
+# model_card templates
+
+Here is how to create a model_card
+
+Copy `template.README.md` to under `model_cards/USERNAME/MODELNAME/README.md` and fill it out while studying [demo.README.md](./demo.README.md) for an example of a model model_card and reading the rest of this document if you are not sure about some specific fields.
+
+## YAML metadata section
+
+### language
+
+ISO 639-1 code for your language (e.g. `ru`, `en`, `de`, or `multilingual`)
+
+### thumbnail 
+
+"url to a thumbnail used in social sharing"
+
+### tags:
 - array
 - of
 - tags
-license: "any valid license identifier"
-datasets:
-- array of dataset identifiers
-metrics:
-- array of metric identifiers
----
+
+### license
+
+One of the valid license identifier. e.g.:
+
+```
+- Apache 2.0
+- MIT 
+```
+
+
+### datasets
+
+One or more dataset identifiers. 
+
+Example:
+
+```
+- wmt19
+- wmt16
+```
+
+You will find the supported list at https://huggingface.co/datasets
+
+### metrics:
+
+One or more metric identifiers. e.g.:
+
+```
+- bleu
+- rouge
+- sacrebleu
+```
+
+You will find the supported list at https://huggingface.co/metrics
+
+
+## Markdown
+
 
 # Model name
 
