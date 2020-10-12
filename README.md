@@ -1,10 +1,30 @@
 # model_card templates
 
-Here is how to create a model_card
+We recommend sharing information about each model in a `model_card`.
 
-Copy `template.README.md` to under `model_cards/USERNAME/MODELNAME/README.md` and fill it out while studying [demo.README.md](./demo.README.md) for an example of a model model_card and reading the rest of this document if you are not sure about some specific fields.
+One of the easiest way to get started is by using our template card. Simply copy `template.README.md` to `model_cards/USERNAME/MODELNAME/README.md` and fill it out while studying [demo.README.md](./demo.README.md) for an example of a model `model_card` and referring to rest of this short document if you are not sure about some specific fields.
 
 ## YAML metadata section
+
+Here is a sample of a typical yaml metadata section:
+```
+---
+language:
+- ru
+- en
+thumbnail: https://raw.githubusercontent.com/JetRunner/BERT-of-Theseus/master/bert-of-theseus.png
+tags:
+- translation
+- fsmt
+license: Apache 2.0
+datasets:
+- wmt19
+metrics:
+- bleu
+- sacrebleu
+---
+```
+
 
 ### language
 
