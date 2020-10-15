@@ -2,6 +2,8 @@
 
 We recommend sharing information about each model in a `model_card`.
 
+The canonical documentation about model cards is at https://huggingface.co/docs
+
 One of the easiest way to get started is by using our template card. Simply copy `template.README.md` to `model_cards/USERNAME/MODELNAME/README.md` and fill it out while studying [demo.README.md](./demo.README.md) for an example of a model `model_card` and referring to rest of this short document if you are not sure about some specific fields.
 
 ## YAML metadata section
