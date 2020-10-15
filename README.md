@@ -44,8 +44,8 @@ ISO 639-1 code for your language (e.g. `ru`, `en`, `de`, or `multilingual`)
 One of the valid license identifiers. e.g.:
 
 ```
-- Apache 2.0
-- MIT 
+- apache-2.0
+- mit 
 ```
 
 
