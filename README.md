@@ -16,7 +16,7 @@ thumbnail: https://raw.githubusercontent.com/JetRunner/BERT-of-Theseus/master/be
 tags:
 - translation
 - fsmt
-license: Apache 2.0
+license: apache-2.0
 datasets:
 - wmt19
 metrics:
