@@ -27,6 +27,9 @@ metrics:
 ---
 ```
 
+**Important**:
+* This section has to be first in the document, before any markdown sections.
+* The data in this section doesn't need to be repeated again in the subsequent markdown sections - since it'll be automatically expanded into a user-friendly format on the website.
 
 ### language
 
